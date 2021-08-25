@@ -23,7 +23,7 @@ module.exports = function (app){
   // React App Route 
   // app.get(['/locations', '/locations/*'], function(req, res, next) {
   app.get(['/locations', '/locations/*'], function(req, res, next) {
-    res.sendFile('index.html', {root: path.join(__dirname, '../react-app/build/')});
+    res.sendFile('index.html', {root: path.join(__dirname, '../public/build/')});
   });
 
 }
