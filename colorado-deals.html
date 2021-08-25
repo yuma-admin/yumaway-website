@@ -1,0 +1,357 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuma Way Website</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+<!-- NAVBAR -->
+<div id="navbar">
+    <div class="row">
+    <div class="col-6">
+        <a href="/" class="navLogo"><img src="/images/homeImages/cropped-TOPNAVLOGO.png"></a>
+    </div>
+    <div class="col-6">
+        <a href="/" class="mainNavItem">Home</a>
+        <a href="/colorado-deals" class="mainNavItem">Deals</a>
+        <a href="/locations" class="mainNavItem">Shop</a>
+    </div>
+    </div>
+</div>
+
+<!-- Deals Page -->
+<div class="container dealContainer" id="desktopAndTabletView">
+
+    <!---- Drop Down Menu ---->
+    <div class="row">
+        <div class="col-12">
+            
+                <div class="stateSelector">
+                    <h3 class="currentState">Colorado Deals</h3>
+                    <div class="selectableStates">
+                        <a href="/michigan-deals"><h4>Michigan Deals</h4></a>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+    <!-- ------- -->
+    <!-- TOP ROW -->
+    <!-- ------- -->
+    <div class="row" id="firstRow"> 
+
+        <!-- TOP-LEFT: Primary Image -->
+        
+        <div class="col-9">
+            
+            <div class="dealHeroImageContainer">
+ 
+                
+                <div class="col-4">
+                    
+                    <div class="heroButtonContainer">
+                        <img class="heroDealsLogo" src="/images/coloradoDeals/YumaWay_Horizontal_BlackGold_Solid.png" alt="YumaWay Logo">
+                        <a href="/locations" class="newDealButton">
+                        Shop 
+                        </a>
+                    </div>
+                    
+                </div>
+                <div id="mainTopCarousel">
+                    <div id="topCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-wrap="true">
+                        <div class="carousel-inner">
+                            
+                            <div class="heroButtonBackground"></div>
+                            <div class="carousel-item active" data-interval="3000">
+                                
+                                    <div class="d-block w-100">
+                                        <a href="/locations">
+                                            <!-- <div class="heroButtonBackground"></div> -->
+                                            <img src="/images/coloradoDeals/A_heroHalfOunce-fullPhoto-noshade.png" class=" carouselImage" alt="Primary Cannabis Coupon One">
+                                        </a>
+                                    </div>
+                                                                            
+                            </div>
+                            <div class="carousel-item" data-interval="3000"> 
+                                
+                                    
+                                    <div class="d-block w-100">
+                                        <a href="/locations">
+                                            <!-- <div class="heroButtonBackground"></div> -->
+                                            <img src="/images/coloradoDeals/hero420Joints-fullPhoto-noshade.png" class=" carouselImage" alt="Primary Cannabis Coupon Two">
+                                        </a>
+                                    </div>
+                                
+                            </div>
+                            <div class="carousel-item" data-interval="3000">
+                                
+                                    
+                                    <div class="d-block w-100">
+                                        <a href="/locations">
+                                            <!-- <div class="heroButtonBackground"></div> -->
+                                            <img src="/images/coloradoDeals/heroConcentrates-fullPhoto-half-GRAM.png" class=" carouselImage" alt="Primary Cannabis Coupon Three">
+                                        </a>
+                                    </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div> 
+        </div>  
+
+
+
+
+        <!-- TOP-RIGHT: Two Images Stacked -->
+        
+        <div class="col-3 ">
+            <div class="rightTopColumn">
+                
+                    <div class="topRightCouponContainer" id="upperTopCouponContainer">
+                        <a href="/locations">
+                            <img src="/images/coloradoDeals/TheClear20-off.png" alt="Cannabis Coupon One">
+                        </a>
+                    </div>    
+                
+                
+                    <div class="topRightCouponContainer" id="lowerTopCouponContainer">
+                        <a href="/locations">
+                            <img src="/images/coloradoDeals/keef-4-for-4-20.png" alt="Cannabis Coupon Two">
+                        </a>
+                    </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ----------- -->
+    <!-- SECOOND ROW -->
+    <!-- ----------- -->
+    <div class="row" id="fourthRow">
+
+        <div class="col-3">
+
+            <div class="fourthRowCoupon">
+                <a href="/locations">
+                    <img src="/images/coloradoDeals/20-half-ounce.png" alt="Cannabis Coupon Three">
+                </a>
+            </div>
+
+        </div>
+
+        <div class="col-3">
+            <div class="fourthRowCoupon">
+                <a href="/locations">
+                    <img src="/images/coloradoDeals/6-dollar-joint.png" alt="Cannabis Coupon Five">
+                </a>
+            </div>
+        </div>
+
+        <div class="col-3">
+            <div class="fourthRowCoupon">
+                <a href="/locations">
+                    <img src="/images/coloradoDeals/rosinCoupon-tiny.png" alt="Cannabis Coupon Six">
+                </a>
+            </div>
+        </div>
+
+        <div class="col-3">
+            <div class="fourthRowCoupon">
+                <a href="/locations">
+                    <img src="/images/coloradoDeals/flowerCoupon-3-types.png" alt="Cannabis Coupon Six">
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="bottomRow"></div>
+</div>
+
+<!-- --------------------------- -->
+<!-- MOBILE VIEWS START HERE --- -->
+<!-- Disabled When Not on Mobile -->
+<!-- --------------------------- -->
+
+<div class="container dealContainer" id="mobileView">
+
+    <!------------------------>
+    <!---- DROP DOWN MENU ---->
+    <!------------------------>
+    <div class="row">
+        <div class="col-12">
+            <div class="stateSelector">
+                <h3 class="currentState">Colorado Deals</h3>
+                <div class="selectableStates">
+                    <a href="/michigan-deals"><h4>Michigan Deals</h4></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------>
+    <!-- FIRST ROW (MOBILE) -->
+    <!------------------------>
+    <div id="firstRow">
+        <div class="row">
+            <div class="col-12">
+                <div class="dealHeroImageContainer">
+    
+                    <div class="col-5">
+                        
+                        <div class="heroButtonContainer">
+                            <img class="heroDealsLogo" src="/wp-content/uploads/2021/05/YumaWay_Horizontal_BlackGold_Solid.png" alt="YumaWay Logo">
+                            <a href="/locations" class="newDealButton">
+                            Shop 
+                            </a>
+                        </div>
+                        
+                    </div>
+
+                    <div id="mainTopCarousel">
+                        <div id="topCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-wrap="true">
+                            <div class="carousel-inner">
+
+                                <div class="heroButtonBackground"></div>
+                                <div class="carousel-item active" data-interval="3000">
+                                    
+                                        <div class="d-block w-100">
+                                            <a href="/locations">
+                                                <img src="/wp-content/uploads/2021/07/heroHalfOunce-fullPhoto-noshade.png" class=" carouselImage" alt="Primary Cannabis Coupon Mobile One">
+                                            </a>
+                                        </div>
+                                                                                
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000"> 
+                                    
+                                        <div class="d-block w-100">
+                                            <a href="/locations">
+                                                <img src="/wp-content/uploads/2021/07/hero420Joints-fullPhoto-noshade.png" class=" carouselImage" alt="Primary Cannabis Coupon Mobile Two">
+                                            </a>
+                                        </div>
+                                    
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    
+                                        
+                                        <div class="d-block w-100">
+                                            <a href="/locations">
+                                                <img src="/wp-content/uploads/2021/08/heroConcentrates-fullPhoto-half-GRAM.png" class=" carouselImage" alt="Primary Cannabis Coupon Mobile Three">
+                                            </a>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+    
+    <!------------------------>
+    <!-- NEW ROW (MOBILE)-->
+    <!------------------------>
+    <div id="secondRow">
+        <div class="row">
+            <div class="col-12">
+                <div class="topRightCouponContainer" id="upperTopCouponContainer">
+                    <a href="/locations">
+                        <img src="/wp-content/uploads/2021/07/keef-4-for-4-20.png" alt="Cannabis Coupon Mobile Two">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!------------------------>
+    <!-- NEW ROW (MOBILE) -->
+    <!------------------------>
+    <div id="secondRow">
+        <div class="row">
+            <div class="col-12">
+                <div class="topRightCouponContainer" id="upperTopCouponContainer">
+                    <a href="/locations">
+                        <img src="/wp-content/uploads/2021/08/TheClear20-off.png" alt="Cannabis Coupon Mobile Three">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------>
+    <!-- NEW ROW (MOBILE) -->
+    <!------------------------>
+    <div id="secondRow">
+        <div class="row">
+            <div class="col-12">
+                <div class="topRightCouponContainer" id="upperTopCouponContainer">
+                    <a href="/locations">
+                        <img src="/wp-content/uploads/2021/08/6-dollar-joint.png" alt="Cannabis Coupon Mobile Four">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------>
+    <!-- NEW ROW (MOBILE) -->
+    <!------------------------>
+    <div id="secondRow">
+        <div class="row">
+            <div class="col-12">
+                <div class="topRightCouponContainer" id="upperTopCouponContainer">
+                    <a href="/locations">
+                        <img src="/wp-content/uploads/2021/08/10-off-flower-select.png" alt="Cannabis Coupon Mobile Five">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------>
+    <!-- NEW ROW (MOBILE) -->
+    <!------------------------>
+    <div id="secondRow">
+        <div class="row">
+            <div class="col-12">
+                <div class="topRightCouponContainer" id="upperTopCouponContainer">
+                    <a href="/locations">
+                        <img src="/wp-content/uploads/2021/08/rosinCoupon-tiny.png" alt="Cannabis Coupon Mobile Six">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------>
+    <!-- NEW ROW (MOBILE) -->
+    <!------------------------>
+    <div id="secondRow">
+        <div class="row">
+            <div class="col-12">
+                <div class="topRightCouponContainer" id="upperTopCouponContainer">
+                    <a href="/locations">
+                        <img src="/wp-content/uploads/2021/08/flowerCoupon-3-types.png" alt="Cannabis Coupon Mobile Six">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
